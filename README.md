@@ -11,11 +11,18 @@ written to output file and screen.
  ## techonlgies used
  -c++
  -makefile
+ -file handling
+ -linked lists
 
-### To compile project
-`make all`
+### To compil&Run project
+make
+./scheduler input.txt output.txt
 
-### To run
+### how it works
+The program reads a file listing each process’s 
+burst time, priority, arrival time, and queue ID.
+It calculates waiting times for each queue using FCFS, SJF,
+and Priority Scheduling and writes the results to an output file.
 
 
 ## description 
